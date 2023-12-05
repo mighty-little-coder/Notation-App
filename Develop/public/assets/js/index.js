@@ -1,3 +1,18 @@
+const express = require('express');
+const app = express();
+
+// Define a route for "/api/notes"
+app.get('/api/notes', (req, res) => {
+    // Handle the GET request logic here
+});
+
+// Start the server
+const PORT = process.env.PORT || 3001;
+app.listen(PORT, () => {
+    console.log(`Server is running on http://127.0.0.1:${PORT}`);
+});
+
+
 let noteForm;
 let noteTitle;
 let noteText;
@@ -29,7 +44,7 @@ const hide = (elem) => {
 let activeNote = {};
 
 const getNotes = () =>
-  fetch('./notes.html', {
+  fetch('/api/notes', {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json'
