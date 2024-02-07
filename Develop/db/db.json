@@ -1,7 +1,23 @@
 [
     {
+<<<<<<< HEAD
         "title":"Test Title",
         "text":"Test text",
         "id": ""
+=======
+        "title":"Buy Gifts for Leyna",
+        "text":"She wants hot chocolate, ballet shoes, and a house.",
+        "id":"1"
+    },
+    {
+        "title":"Remove Cylinder heads",
+        "text":"Check mating surface for subaru engine block.",
+        "id":"2"
+    },
+    {
+        "title":"Go for a run",
+        "text":"Be less fat.",
+        "id":"3"
+>>>>>>> 1c9742b7ca4d091ec3e5c921114ef542f57dcc26
     }
 ]
